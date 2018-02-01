@@ -11,7 +11,6 @@
     <div class="logo">Briggs Howard Pizzeria</div>
     <div>
         <ul class="toolbar">
-            <li><a href="#">Contact</a></li>
             <li><a href="about.html">About</a></li>
             <li><a class = "active" href="reviews.html">Reviews</a></li>
             <li><a href="menu.html">Menu</a></li>
@@ -39,13 +38,30 @@
         <img src = "https://farm3.staticflickr.com/2484/3714754065_81e1aa8b1a_b.jpg"/>
     </div>
     <div>
-        <p>"My kids absolutely loves to come to Briggs Howard Pizzaria! It’s a great treat for the whole family,
+        <p>"My kids absolutely loves to come to Briggs Howard Pizzaria! It's a great treat for the whole family,
             especially after a long week of school and work."
         <p class="rev"> - Patricia Pepperoni</p></p>
     </div>
     <div></div>
     <div></div>
 </div>
+<p class="centered">Liked our food? Have any comments? Leave us a review here!</p>
+<form action="https://formspree.io/how.d.65@gmail.com"
+      method="POST">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="_replyto">
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="userMessage"></textarea>
+    </div>
+    <input type="submit" id="button" value="Send">
+</form>
 </body>
 <footer>
     <p>Fueled by Pizza. Powered by laughter. <i class="fa fa-smile-o" aria-hidden="true"></i></p>

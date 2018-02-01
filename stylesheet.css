@@ -97,9 +97,9 @@ li a:hover{
     grid-row-gap: 30px;
 }
 
-.container{
+div.container{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
 }
@@ -154,14 +154,36 @@ div.locationContainer{
 .location{
     text-align: center;
 }
+
 /*reviews*/
 div.reviewContainer{
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
+    margin-bottom: 30px;
 }
+
 .customer img{
     width: 100%;
+}
+/*Menu*/
+h2.title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 
+.disclaimer{
+    text-align: center;
+}
+
+li.toppings{
+    display: block;
+    float: left;
+}
+
+.food img{
+    width: 100%;
+    vertical-align: center;
 }
